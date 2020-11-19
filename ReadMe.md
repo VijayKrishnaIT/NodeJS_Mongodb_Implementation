@@ -6,7 +6,7 @@
 
         - MongoDB database supports only JSON.
 
-        - MongoDB database is the ligth weight database.
+        - MongoDB database is the light weight database.
 
         - default port no MongoDB database is 27017.
 
@@ -126,7 +126,7 @@ collection_name = employees
 
 7.  assign the port no
 
-let port = process.env.PORT || 8080;
-app.listen(port,()=>{
-console.log("server started");
-})
+        let port = process.env.PORT || 8080;
+        app.listen(port,()=>{
+        console.log("server started");
+        })
