@@ -130,3 +130,18 @@ collection_name = employees
         app.listen(port,()=>{
         console.log("server started");
         })
+
+# update employee
+
+    - update employee data (mobile,email and city) based on id
+
+# delete employee
+
+    - delete employee based on id.
+
+# Postman run the URL and pass the body for post and put
+
+        http://localhost:8080/employees         (GET)
+        http://localhost:8080/newemployee       (POST)
+        http://localhost:8080/updateemployee    (PUT)
+        http://localhost:8080/deleteemployee    (DELETE)
